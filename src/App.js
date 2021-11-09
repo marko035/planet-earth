@@ -1,24 +1,20 @@
-import logo from './logo.svg';
+import { Canvas } from '@react-three/fiber';
+import { Suspense } from 'react';
 import './App.css';
+import Earth from './components/earth/Earth';
+
 
 function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Canvas>
+      <directionalLight color="0xffffff" position={[5, 3, 5]} intensity={1} />
+      <Suspense fallback={null}>
+        {/* <ambientLight color="0x333333" intensity={0.05} /> */}
+        <Earth />
+      </Suspense>
+    </Canvas>
   );
 }
 
