@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.faf3a819.chunk.css",
+    "main.js": "/static/js/main.4bf45d8c.chunk.js",
+    "main.js.map": "/static/js/main.4bf45d8c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.18cdf2d7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.18cdf2d7.js.map",
+    "static/js/2.34604b13.chunk.js": "/static/js/2.34604b13.chunk.js",
+    "static/js/2.34604b13.chunk.js.map": "/static/js/2.34604b13.chunk.js.map",
+    "static/js/3.fb5f191a.chunk.js": "/static/js/3.fb5f191a.chunk.js",
+    "static/js/3.fb5f191a.chunk.js.map": "/static/js/3.fb5f191a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.faf3a819.chunk.css.map": "/static/css/main.faf3a819.chunk.css.map",
+    "static/js/2.34604b13.chunk.js.LICENSE.txt": "/static/js/2.34604b13.chunk.js.LICENSE.txt",
+    "static/media/2_no_clouds_4k.db0f72d2.jpeg": "/static/media/2_no_clouds_4k.db0f72d2.jpeg",
+    "static/media/displacementMap.9db8a9b1.jpg": "/static/media/displacementMap.9db8a9b1.jpg",
+    "static/media/fair_clouds_4k.67a542cb.png": "/static/media/fair_clouds_4k.67a542cb.png",
+    "static/media/galaxyStarfield.6376a942.png": "/static/media/galaxyStarfield.6376a942.png",
+    "static/media/nightMap.c0e138e9.jpeg": "/static/media/nightMap.c0e138e9.jpeg",
+    "static/media/normalMap.930cf2e9.jpeg": "/static/media/normalMap.930cf2e9.jpeg",
+    "static/media/water_4k.e532694e.png": "/static/media/water_4k.e532694e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.18cdf2d7.js",
+    "static/js/2.34604b13.chunk.js",
+    "static/css/main.faf3a819.chunk.css",
+    "static/js/main.4bf45d8c.chunk.js"
+  ]
+}

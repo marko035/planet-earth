@@ -7,10 +7,11 @@ import EarthDisplacementMap from '../../assets/textures/displacementMap.jpg';
 import EarthCloudsMap from '../../assets/textures/fair_clouds_4k.png';
 import EarthNormalMap from '../../assets/textures/normalMap.jpeg';
 import EarthSpecularMap from '../../assets/textures/water_4k.png';
+import EarthNightMap from '../../assets/textures/nightMap.jpeg';
 import Galaxy from '../galaxy/Galaxy';
 
 export default function Earth(props) {
-    const [colorMap, normalMap, specularMap, cloudsMap, displacementMap] = useLoader(TextureLoader, [EarthDayMap, EarthNormalMap, EarthSpecularMap, EarthCloudsMap, EarthDisplacementMap]);
+    const [nightMap, colorMap, normalMap, specularMap, cloudsMap, displacementMap] = useLoader(TextureLoader, [EarthNightMap, EarthDayMap, EarthNormalMap, EarthSpecularMap, EarthCloudsMap, EarthDisplacementMap]);
 
     const earthRef = useRef();
     const cloudsRef = useRef();
